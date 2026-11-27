@@ -1,6 +1,6 @@
 {
   "person": "林文斌",
-  "version": "v1",
+  "version": "v2",
   "width": 5.75,
   "depth": 5.8,
   "height": 2.59,
@@ -8,8 +8,8 @@
     {
       "name": "卧室",
       "rect": [
-        0.14,
-        0.14,
+        3.14,
+        2.33,
         2.47,
         3.33
       ],
@@ -18,22 +18,22 @@
     {
       "name": "卫浴",
       "rect": [
+        4.03,
         0.14,
-        3.61,
         1.58,
         2.05
       ],
       "fill": "#e0eaea",
       "label": [
-        0.82,
-        4.6
+        4.93,
+        1.2
       ]
     },
     {
       "name": "过道",
       "rect": [
-        1.86,
-        3.61,
+        3.0,
+        0.14,
         0.89,
         2.05
       ],
@@ -42,89 +42,64 @@
     {
       "name": "起居和模型工作区",
       "rect": [
-        2.75,
         0.14,
+        2.4,
         2.86,
-        3.42
+        3.26
       ],
       "fill": "#dfebe5"
     },
     {
-      "name": "玄关及开放厨房",
+      "name": "入口及过道",
       "rect": [
-        2.75,
-        3.56,
-        2.86,
-        2.1
+        1.61,
+        0.14,
+        1.39,
+        2.14
       ],
-      "fill": "#e6e8df"
+      "fill": "#edf0e5"
+    },
+    {
+      "name": "独立厨房",
+      "rect": [
+        0.14,
+        1.14,
+        1.35,
+        1.14
+      ],
+      "fill": "#e8eee4"
+    },
+    {
+      "name": "入户前区",
+      "rect": [
+        0.14,
+        0.14,
+        1.47,
+        0.88
+      ],
+      "fill": "#edf0e5"
     }
   ],
   "walls": [
     {
-      "id": "north",
+      "id": "south",
       "start": [
-        0,
-        0.07
+        0.0,
+        5.73
       ],
       "end": [
         5.75,
-        0.07
+        5.73
       ],
       "thickness": 0.14,
       "openings": [
         {
           "id": "W-B",
           "type": "window",
-          "from": 0.55,
-          "to": 2.18,
+          "from": 3.57,
+          "to": 5.2,
           "sill": 0.91,
           "top": 2.18
-        }
-      ]
-    },
-    {
-      "id": "east",
-      "start": [
-        5.68,
-        0
-      ],
-      "end": [
-        5.68,
-        5.8
-      ],
-      "thickness": 0.14,
-      "openings": [
-        {
-          "id": "W-L",
-          "type": "window",
-          "from": 1.1,
-          "to": 2.65,
-          "sill": 0.86,
-          "top": 2.17
-        }
-      ]
-    },
-    {
-      "id": "south",
-      "start": [
-        0,
-        5.73
-      ],
-      "end": [
-        5.75,
-        5.73
-      ],
-      "thickness": 0.14,
-      "openings": [
-        {
-          "id": "D-E",
-          "type": "door",
-          "from": 4.39,
-          "to": 5.32,
-          "top": 2.07,
-          "hinge": "end",
-          "swing": "north"
         }
       ]
     },
@@ -132,47 +107,109 @@
       "id": "west",
       "start": [
         0.07,
-        0
+        0.0
       ],
       "end": [
         0.07,
         5.8
       ],
       "thickness": 0.14,
-      "openings": []
+      "openings": [
+        {
+          "id": "W-K",
+          "type": "window",
+          "from": 1.32,
+          "to": 2.17,
+          "sill": 1.1,
+          "top": 2.16
+        },
+        {
+          "id": "W-L",
+          "type": "window",
+          "from": 3.15,
+          "to": 4.7,
+          "sill": 0.86,
+          "top": 2.17
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "start": [
+        0.0,
+        0.07
+      ],
+      "end": [
+        5.75,
+        0.07
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-E",
+          "type": "door",
+          "from": 0.43,
+          "to": 1.36,
+          "top": 2.07,
+          "hinge": "start",
+          "swing": "south"
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "start": [
+        5.68,
+        0.0
+      ],
+      "end": [
+        5.68,
+        5.8
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "W-W",
+          "type": "window",
+          "from": 1.15,
+          "to": 1.7,
+          "sill": 1.55,
+          "top": 2.15
+        }
+      ]
     },
     {
       "id": "bed-eastern",
       "start": [
-        2.68,
-        0.14
+        3.07,
+        2.19
       ],
       "end": [
-        2.68,
-        3.61
+        3.07,
+        5.66
       ],
       "thickness": 0.14,
       "openings": [
         {
           "id": "D-B",
           "type": "door",
-          "from": 2.12,
-          "to": 3.04,
+          "from": 0.43,
+          "to": 1.35,
           "top": 2.07,
-          "hinge": "start",
-          "swing": "west"
+          "hinge": "end",
+          "swing": "east"
         }
       ]
     },
     {
       "id": "bed-south",
       "start": [
-        0.14,
-        3.54
+        3.07,
+        2.26
       ],
       "end": [
-        2.68,
-        3.54
+        5.61,
+        2.26
       ],
       "thickness": 0.14,
       "openings": []
@@ -180,35 +217,84 @@
     {
       "id": "bath-east",
       "start": [
-        1.79,
-        3.61
+        3.96,
+        0.14
       ],
       "end": [
-        1.79,
-        5.66
+        3.96,
+        2.19
       ],
       "thickness": 0.14,
       "openings": [
         {
           "id": "D-W",
           "type": "door",
-          "from": 0.73,
-          "to": 1.51,
+          "from": 0.54,
+          "to": 1.32,
           "top": 2.07,
-          "hinge": "end",
-          "swing": "west"
+          "hinge": "start",
+          "swing": "east"
         }
       ]
+    },
+    {
+      "id": "kitchen-west",
+      "start": [
+        1.55,
+        1.14
+      ],
+      "end": [
+        1.55,
+        2.28
+      ],
+      "thickness": 0.12,
+      "openings": [
+        {
+          "id": "D-K",
+          "type": "door",
+          "from": 0.16,
+          "to": 1.07,
+          "hinge": "start",
+          "swing": "east",
+          "top": 2.07
+        }
+      ]
+    },
+    {
+      "id": "kitchen-north",
+      "start": [
+        0.14,
+        2.34
+      ],
+      "end": [
+        1.61,
+        2.34
+      ],
+      "thickness": 0.12,
+      "openings": []
+    },
+    {
+      "id": "kitchen-south",
+      "start": [
+        0.14,
+        1.08
+      ],
+      "end": [
+        1.61,
+        1.08
+      ],
+      "thickness": 0.12,
+      "openings": []
     }
   ],
   "furniture": [
     {
       "id": "bed",
       "name": "床",
-      "kind": "bed-north",
+      "kind": "bed-south",
       "rect": [
-        0.36,
-        0.49,
+        4.13,
+        3.35,
         1.26,
         1.96
       ],
@@ -221,8 +307,8 @@
       "name": "窄柜",
       "kind": "box",
       "rect": [
-        2.02,
-        0.71,
+        3.15,
+        4.3,
         0.58,
         0.79
       ],
@@ -234,8 +320,8 @@
       "name": "衣柜",
       "kind": "box",
       "rect": [
-        0.2,
-        2.89,
+        4.44,
+        2.33,
         1.11,
         0.58
       ],
@@ -245,10 +331,10 @@
     {
       "id": "sofa",
       "name": "双人短沙发",
-      "kind": "sofa-north",
+      "kind": "sofa-south",
       "rect": [
-        3.05,
-        0.14,
+        1.05,
+        4.91,
         1.65,
         0.75
       ],
@@ -258,11 +344,11 @@
     },
     {
       "id": "hobby-table",
-      "name": "模型工作桌",
+      "name": "常用涂装工作台",
       "kind": "table",
       "rect": [
-        4.98,
-        1.35,
+        0.14,
+        3.31,
         0.63,
         1.14
       ],
@@ -271,11 +357,11 @@
     },
     {
       "id": "stow",
-      "name": "浅收纳柜",
+      "name": "可搬组合收纳",
       "kind": "box",
       "rect": [
-        2.75,
-        0.94,
+        2.71,
+        3.72,
         0.29,
         1.14
       ],
@@ -284,13 +370,13 @@
     },
     {
       "id": "counter",
-      "name": "开放厨房台面",
+      "name": "独立厨房台面",
       "kind": "counter",
       "rect": [
-        4.99,
-        3.55,
+        0.14,
+        1.14,
         0.62,
-        1.22
+        1.14
       ],
       "height": 0.87,
       "color": "#6e817b"
@@ -300,8 +386,8 @@
       "name": "浴区",
       "kind": "box",
       "rect": [
-        0.15,
-        3.64,
+        4.82,
+        1.38,
         0.78,
         0.78
       ],
@@ -314,8 +400,8 @@
       "name": "坐便器",
       "kind": "box",
       "rect": [
-        1.13,
-        3.64,
+        4.13,
+        1.52,
         0.49,
         0.64
       ],
@@ -327,8 +413,8 @@
       "name": "洗手台",
       "kind": "box",
       "rect": [
-        0.18,
-        5.03,
+        5.06,
+        0.23,
         0.51,
         0.54
       ],
@@ -340,16 +426,16 @@
     {
       "id": "living",
       "position": [
-        3.58,
-        4.99,
-        1.48
+        2.55,
+        2.29,
+        1.49
       ],
       "target": [
-        4.41,
-        1.85,
+        1.45,
+        4.07,
         1.26
       ],
-      "horizontalFov": 85,
+      "horizontalFov": 94,
       "anchors": [
         "W-L",
         "hobby-table",
@@ -360,13 +446,13 @@
     {
       "id": "bedroom",
       "position": [
-        2.37,
-        3.26,
+        3.38,
+        2.54,
         1.49
       ],
       "target": [
-        1.25,
-        0.87,
+        4.5,
+        4.93,
         1.29
       ],
       "horizontalFov": 79,
