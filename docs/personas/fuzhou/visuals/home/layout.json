@@ -1,0 +1,380 @@
+{
+  "person": "林文斌",
+  "version": "v1",
+  "width": 5.75,
+  "depth": 5.8,
+  "height": 2.59,
+  "rooms": [
+    {
+      "name": "卧室",
+      "rect": [
+        0.14,
+        0.14,
+        2.47,
+        3.33
+      ],
+      "fill": "#e8e5dd"
+    },
+    {
+      "name": "卫浴",
+      "rect": [
+        0.14,
+        3.61,
+        1.58,
+        2.05
+      ],
+      "fill": "#e0eaea",
+      "label": [
+        0.82,
+        4.6
+      ]
+    },
+    {
+      "name": "过道",
+      "rect": [
+        1.86,
+        3.61,
+        0.89,
+        2.05
+      ],
+      "fill": "#e7e4dd"
+    },
+    {
+      "name": "起居和模型工作区",
+      "rect": [
+        2.75,
+        0.14,
+        2.86,
+        3.42
+      ],
+      "fill": "#dfebe5"
+    },
+    {
+      "name": "玄关及开放厨房",
+      "rect": [
+        2.75,
+        3.56,
+        2.86,
+        2.1
+      ],
+      "fill": "#e6e8df"
+    }
+  ],
+  "walls": [
+    {
+      "id": "north",
+      "start": [
+        0,
+        0.07
+      ],
+      "end": [
+        5.75,
+        0.07
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "W-B",
+          "type": "window",
+          "from": 0.55,
+          "to": 2.18,
+          "sill": 0.91,
+          "top": 2.18
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "start": [
+        5.68,
+        0
+      ],
+      "end": [
+        5.68,
+        5.8
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "W-L",
+          "type": "window",
+          "from": 1.1,
+          "to": 2.65,
+          "sill": 0.86,
+          "top": 2.17
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "start": [
+        0,
+        5.73
+      ],
+      "end": [
+        5.75,
+        5.73
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-E",
+          "type": "door",
+          "from": 4.39,
+          "to": 5.32,
+          "top": 2.07,
+          "hinge": "end",
+          "swing": "north"
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "start": [
+        0.07,
+        0
+      ],
+      "end": [
+        0.07,
+        5.8
+      ],
+      "thickness": 0.14,
+      "openings": []
+    },
+    {
+      "id": "bed-eastern",
+      "start": [
+        2.68,
+        0.14
+      ],
+      "end": [
+        2.68,
+        3.61
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-B",
+          "type": "door",
+          "from": 2.12,
+          "to": 3.04,
+          "top": 2.07,
+          "hinge": "start",
+          "swing": "west"
+        }
+      ]
+    },
+    {
+      "id": "bed-south",
+      "start": [
+        0.14,
+        3.54
+      ],
+      "end": [
+        2.68,
+        3.54
+      ],
+      "thickness": 0.14,
+      "openings": []
+    },
+    {
+      "id": "bath-east",
+      "start": [
+        1.79,
+        3.61
+      ],
+      "end": [
+        1.79,
+        5.66
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-W",
+          "type": "door",
+          "from": 0.73,
+          "to": 1.51,
+          "top": 2.07,
+          "hinge": "end",
+          "swing": "west"
+        }
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "id": "bed",
+      "name": "床",
+      "kind": "bed-north",
+      "rect": [
+        0.36,
+        0.49,
+        1.26,
+        1.96
+      ],
+      "height": 0.58,
+      "color": "#807d72",
+      "cover": "#64888a"
+    },
+    {
+      "id": "bed-desk",
+      "name": "窄柜",
+      "kind": "box",
+      "rect": [
+        2.02,
+        0.71,
+        0.58,
+        0.79
+      ],
+      "height": 0.72,
+      "color": "#837560"
+    },
+    {
+      "id": "wardrobe",
+      "name": "衣柜",
+      "kind": "box",
+      "rect": [
+        0.2,
+        2.89,
+        1.11,
+        0.58
+      ],
+      "height": 2.01,
+      "color": "#928d7f"
+    },
+    {
+      "id": "sofa",
+      "name": "双人短沙发",
+      "kind": "sofa-north",
+      "rect": [
+        3.05,
+        0.14,
+        1.65,
+        0.75
+      ],
+      "height": 0.82,
+      "color": "#637d78",
+      "cushion": "#738b84"
+    },
+    {
+      "id": "hobby-table",
+      "name": "模型工作桌",
+      "kind": "table",
+      "rect": [
+        4.98,
+        1.35,
+        0.63,
+        1.14
+      ],
+      "height": 0.74,
+      "color": "#695746"
+    },
+    {
+      "id": "stow",
+      "name": "浅收纳柜",
+      "kind": "box",
+      "rect": [
+        2.75,
+        0.94,
+        0.29,
+        1.14
+      ],
+      "height": 1.11,
+      "color": "#7c7d72"
+    },
+    {
+      "id": "counter",
+      "name": "开放厨房台面",
+      "kind": "counter",
+      "rect": [
+        4.99,
+        3.55,
+        0.62,
+        1.22
+      ],
+      "height": 0.87,
+      "color": "#6e817b"
+    },
+    {
+      "id": "shower",
+      "name": "浴区",
+      "kind": "box",
+      "rect": [
+        0.15,
+        3.64,
+        0.78,
+        0.78
+      ],
+      "height": 0.06,
+      "color": "#85a2a2",
+      "walkable": true
+    },
+    {
+      "id": "toilet",
+      "name": "坐便器",
+      "kind": "box",
+      "rect": [
+        1.13,
+        3.64,
+        0.49,
+        0.64
+      ],
+      "height": 0.39,
+      "color": "#e5e4dc"
+    },
+    {
+      "id": "washbasin",
+      "name": "洗手台",
+      "kind": "box",
+      "rect": [
+        0.18,
+        5.03,
+        0.51,
+        0.54
+      ],
+      "height": 0.83,
+      "color": "#adb4aa"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "living",
+      "position": [
+        3.58,
+        4.99,
+        1.48
+      ],
+      "target": [
+        4.41,
+        1.85,
+        1.26
+      ],
+      "horizontalFov": 85,
+      "anchors": [
+        "W-L",
+        "hobby-table",
+        "sofa",
+        "stow"
+      ]
+    },
+    {
+      "id": "bedroom",
+      "position": [
+        2.37,
+        3.26,
+        1.49
+      ],
+      "target": [
+        1.25,
+        0.87,
+        1.29
+      ],
+      "horizontalFov": 79,
+      "anchors": [
+        "W-B",
+        "bed",
+        "bed-desk"
+      ]
+    }
+  ]
+}

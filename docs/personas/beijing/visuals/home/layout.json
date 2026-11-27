@@ -1,0 +1,373 @@
+{
+  "person": "许静",
+  "version": "v1",
+  "width": 7.35,
+  "depth": 5.85,
+  "height": 2.67,
+  "rooms": [
+    {
+      "name": "客餐厅",
+      "rect": [
+        0.14,
+        0.14,
+        3.67,
+        3.32
+      ],
+      "fill": "#e9eeed"
+    },
+    {
+      "name": "卧室",
+      "rect": [
+        3.95,
+        0.14,
+        3.26,
+        3.75
+      ],
+      "fill": "#eee8e0"
+    },
+    {
+      "name": "厨房和玄关",
+      "rect": [
+        0.14,
+        3.46,
+        5.14,
+        2.25
+      ],
+      "fill": "#e8ebe4",
+      "label": [
+        0.9,
+        4.18
+      ]
+    },
+    {
+      "name": "卫浴",
+      "rect": [
+        5.42,
+        4.03,
+        1.79,
+        1.68
+      ],
+      "fill": "#e1eaf0",
+      "label": [
+        5.49,
+        4.97
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "north",
+      "start": [
+        0,
+        0.07
+      ],
+      "end": [
+        7.35,
+        0.07
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "W-L",
+          "type": "window",
+          "from": 0.72,
+          "to": 2.86,
+          "sill": 0.87,
+          "top": 2.23
+        },
+        {
+          "id": "W-B",
+          "type": "window",
+          "from": 4.55,
+          "to": 6.6,
+          "sill": 0.9,
+          "top": 2.25
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "start": [
+        7.28,
+        0
+      ],
+      "end": [
+        7.28,
+        5.85
+      ],
+      "thickness": 0.14,
+      "openings": []
+    },
+    {
+      "id": "south",
+      "start": [
+        0,
+        5.78
+      ],
+      "end": [
+        7.35,
+        5.78
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-E",
+          "type": "door",
+          "from": 2.57,
+          "to": 3.49,
+          "top": 2.07,
+          "hinge": "end",
+          "swing": "north"
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "start": [
+        0.07,
+        0
+      ],
+      "end": [
+        0.07,
+        5.85
+      ],
+      "thickness": 0.14,
+      "openings": []
+    },
+    {
+      "id": "bed-west",
+      "start": [
+        3.88,
+        0.14
+      ],
+      "end": [
+        3.88,
+        4.03
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-B",
+          "type": "door",
+          "from": 1.85,
+          "to": 2.87,
+          "top": 2.07,
+          "hinge": "end",
+          "swing": "east"
+        }
+      ]
+    },
+    {
+      "id": "bed-south",
+      "start": [
+        3.95,
+        3.96
+      ],
+      "end": [
+        7.21,
+        3.96
+      ],
+      "thickness": 0.14,
+      "openings": []
+    },
+    {
+      "id": "bath-west",
+      "start": [
+        5.35,
+        4.03
+      ],
+      "end": [
+        5.35,
+        5.71
+      ],
+      "thickness": 0.14,
+      "openings": [
+        {
+          "id": "D-W",
+          "type": "door",
+          "from": 0.55,
+          "to": 1.38,
+          "top": 2.07,
+          "hinge": "end",
+          "swing": "east"
+        }
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "id": "sofa",
+      "name": "灰褐双人沙发",
+      "kind": "sofa-west",
+      "rect": [
+        0.15,
+        0.8,
+        0.83,
+        1.72
+      ],
+      "height": 0.83,
+      "color": "#838b88",
+      "cushion": "#a4aaa5"
+    },
+    {
+      "id": "table",
+      "name": "小餐桌",
+      "kind": "table",
+      "rect": [
+        2.0,
+        1.05,
+        1.05,
+        0.69
+      ],
+      "height": 0.74,
+      "color": "#9a8a73"
+    },
+    {
+      "id": "counter",
+      "name": "厨房台面",
+      "kind": "counter",
+      "rect": [
+        0.14,
+        3.49,
+        0.63,
+        1.9
+      ],
+      "height": 0.89,
+      "color": "#8f9d96"
+    },
+    {
+      "id": "cabinet",
+      "name": "低书柜",
+      "kind": "box",
+      "rect": [
+        2.97,
+        0.14,
+        0.61,
+        0.31
+      ],
+      "height": 0.75,
+      "color": "#827c68"
+    },
+    {
+      "id": "bed",
+      "name": "床",
+      "kind": "bed-east",
+      "rect": [
+        5.18,
+        0.73,
+        2.02,
+        1.4
+      ],
+      "height": 0.6,
+      "color": "#a49b89",
+      "cover": "#8a9b9c"
+    },
+    {
+      "id": "desk",
+      "name": "窄斗柜",
+      "kind": "box",
+      "rect": [
+        6.34,
+        2.48,
+        0.86,
+        0.57
+      ],
+      "height": 0.8,
+      "color": "#8c8071"
+    },
+    {
+      "id": "wardrobe",
+      "name": "衣柜",
+      "kind": "box",
+      "rect": [
+        4.01,
+        3.33,
+        1.03,
+        0.56
+      ],
+      "height": 2.02,
+      "color": "#b4aa9a"
+    },
+    {
+      "id": "washbasin",
+      "name": "洗手台",
+      "kind": "box",
+      "rect": [
+        5.45,
+        4.07,
+        0.54,
+        0.5
+      ],
+      "height": 0.84,
+      "color": "#b1bbba"
+    },
+    {
+      "id": "shower",
+      "name": "浴区",
+      "kind": "box",
+      "rect": [
+        6.34,
+        4.05,
+        0.84,
+        0.82
+      ],
+      "height": 0.07,
+      "color": "#95a9a9",
+      "walkable": true
+    },
+    {
+      "id": "toilet",
+      "name": "坐便器",
+      "kind": "box",
+      "rect": [
+        6.58,
+        5.02,
+        0.5,
+        0.61
+      ],
+      "height": 0.4,
+      "color": "#e5e4dc"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "living",
+      "position": [
+        3.14,
+        4.96,
+        1.52
+      ],
+      "target": [
+        1.89,
+        1.65,
+        1.34
+      ],
+      "horizontalFov": 81,
+      "anchors": [
+        "W-L",
+        "D-B",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "id": "bedroom",
+      "position": [
+        4.14,
+        2.46,
+        1.49
+      ],
+      "target": [
+        5.76,
+        1.3,
+        1.26
+      ],
+      "horizontalFov": 81,
+      "anchors": [
+        "W-B",
+        "bed",
+        "desk"
+      ]
+    }
+  ]
+}

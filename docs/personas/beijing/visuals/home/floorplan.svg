@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1005" height="909" viewBox="0 0 1005 909">
+<rect width="1005" height="909" fill="#faf8f4"/>
+<g font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" fill="#26312e">
+<text x="120" y="53" font-size="30" font-weight="650">许静 · 居住平面图</text>
+<text x="120" y="83" font-size="15" fill="#53615a">故事户型 v1  ·  平面外轮廓 43.00 m²  ·  单位 m</text>
+<text x="900" y="62" font-size="19" text-anchor="end">北 ↑</text>
+<rect x="134.56" y="170.56" width="381.68" height="345.28" fill="#e9eeed" />
+<rect x="530.8" y="170.56" width="339.04" height="390" fill="#eee8e0" />
+<rect x="134.56" y="515.84" width="534.56" height="234" fill="#e8ebe4" />
+<rect x="683.68" y="575.12" width="186.16" height="174.72" fill="#e1eaf0" />
+<rect x="135.6" y="239.2" width="86.32" height="178.88" fill="#838b88" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="178.76" y="332.64" font-size="11" text-anchor="middle" fill="#18211e">灰褐双人沙发</text>
+<rect x="328" y="265.2" width="109.2" height="71.76" fill="#9a8a73" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="382.6" y="305.08" font-size="11" text-anchor="middle" fill="#18211e">小餐桌</text>
+<rect x="134.56" y="518.96" width="65.52" height="197.6" fill="#8f9d96" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="167.32" y="621.76" font-size="11" text-anchor="middle" fill="#18211e">厨房台面</text>
+<rect x="428.88" y="170.56" width="63.44" height="32.24" fill="#827c68" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="460.6" y="190.68" font-size="11" text-anchor="middle" fill="#18211e">低书柜</text>
+<rect x="658.72" y="231.92" width="210.08" height="145.6" fill="#a49b89" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="763.76" y="308.72" font-size="11" text-anchor="middle" fill="#18211e">床</text>
+<rect x="779.36" y="413.92" width="89.44" height="59.28" fill="#8c8071" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="824.08" y="447.56" font-size="11" text-anchor="middle" fill="#18211e">窄斗柜</text>
+<rect x="537.04" y="502.32" width="107.12" height="58.24" fill="#b4aa9a" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="590.6" y="535.44" font-size="11" text-anchor="middle" fill="#18211e">衣柜</text>
+<rect x="686.8" y="579.28" width="56.16" height="52" fill="#b1bbba" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="714.88" y="609.28" font-size="11" text-anchor="middle" fill="#18211e">洗手台</text>
+<rect x="779.36" y="577.2" width="87.36" height="85.28" fill="#95a9a9" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="823.04" y="623.84" font-size="11" text-anchor="middle" fill="#18211e">浴区</text>
+<rect x="804.32" y="678.08" width="52" height="63.44" fill="#e5e4dc" rx="3" opacity=".82" stroke="#454942" stroke-width="0.8"/>
+<text x="830.32" y="713.8" font-size="11" text-anchor="middle" fill="#18211e">坐便器</text>
+<rect x="120" y="156" width="74.88" height="14.56" fill="#3d423c" />
+<rect x="194.88" y="156" width="222.56" height="14.56" fill="#b8d8e0" stroke="#447d8d" stroke-width="1"/>
+<line x1="194.88" y1="163.28" x2="417.44" y2="163.28" stroke="#447d8d" stroke-width="1.6"/>
+<rect x="417.44" y="156" width="175.76" height="14.56" fill="#3d423c" />
+<rect x="593.2" y="156" width="213.2" height="14.56" fill="#b8d8e0" stroke="#447d8d" stroke-width="1"/>
+<line x1="593.2" y1="163.28" x2="806.4" y2="163.28" stroke="#447d8d" stroke-width="1.6"/>
+<rect x="806.4" y="156" width="78" height="14.56" fill="#3d423c" />
+<rect x="869.84" y="156" width="14.56" height="608.4" fill="#3d423c" />
+<rect x="120" y="749.84" width="267.28" height="14.56" fill="#3d423c" />
+<line x1="482.96" y1="757.12" x2="482.96" y2="661.44" stroke="#9c6e45" stroke-width="2"/>
+<path d="M387.28,757.12 A95.68,95.68 0 0 1 482.96,661.44" fill="none" stroke="#9c6e45" stroke-width="1"/>
+<rect x="482.96" y="749.84" width="401.44" height="14.56" fill="#3d423c" />
+<rect x="120" y="156" width="14.56" height="608.4" fill="#3d423c" />
+<rect x="516.24" y="170.56" width="14.56" height="192.4" fill="#3d423c" />
+<line x1="523.52" y1="469.04" x2="629.6" y2="469.04" stroke="#9c6e45" stroke-width="2"/>
+<path d="M523.52,362.96 A106.08,106.08 0 0 1 629.6,469.04" fill="none" stroke="#9c6e45" stroke-width="1"/>
+<rect x="516.24" y="469.04" width="14.56" height="106.08" fill="#3d423c" />
+<rect x="530.8" y="560.56" width="339.04" height="14.56" fill="#3d423c" />
+<rect x="669.12" y="575.12" width="14.56" height="57.2" fill="#3d423c" />
+<line x1="676.4" y1="718.64" x2="762.72" y2="718.64" stroke="#9c6e45" stroke-width="2"/>
+<path d="M676.4,632.32 A86.32,86.32 0 0 1 762.72,718.64" fill="none" stroke="#9c6e45" stroke-width="1"/>
+<rect x="669.12" y="718.64" width="14.56" height="31.2" fill="#3d423c" />
+<text x="147.04" y="195.52" font-size="16" font-weight="650">客餐厅</text>
+<text x="147.04" y="214.52" font-size="12" fill="#53615a">3.67 × 3.32</text>
+<text x="543.28" y="195.52" font-size="16" font-weight="650">卧室</text>
+<text x="543.28" y="214.52" font-size="12" fill="#53615a">3.26 × 3.75</text>
+<text x="213.6" y="590.72" font-size="16" font-weight="650">厨房和玄关</text>
+<text x="213.6" y="609.72" font-size="12" fill="#53615a">5.14 × 2.25</text>
+<text x="690.96" y="672.88" font-size="16" font-weight="650">卫浴</text>
+<text x="690.96" y="691.88" font-size="12" fill="#53615a">1.79 × 1.68</text>
+<line x1="120" y1="136" x2="884.4" y2="136" stroke="#647268" stroke-width="1"/>
+<line x1="120" y1="128" x2="120" y2="146" stroke="#647268" stroke-width="1"/>
+<line x1="884.4" y1="128" x2="884.4" y2="146" stroke="#647268" stroke-width="1"/>
+<text x="502.2" y="129" font-size="15" text-anchor="middle">7.35 m</text>
+<line x1="98" y1="156" x2="98" y2="764.4" stroke="#647268" stroke-width="1"/>
+<line x1="91" y1="156" x2="105" y2="156" stroke="#647268" stroke-width="1"/>
+<line x1="91" y1="764.4" x2="105" y2="764.4" stroke="#647268" stroke-width="1"/>
+<text x="81" y="465.2" font-size="14" text-anchor="middle" transform="rotate(-90 81 465.2)">5.85 m</text>
+<text x="435.12" y="789.36" font-size="13" text-anchor="middle">入口</text>
+<line x1="446.56" y1="671.84" x2="426.352" y2="618.329" stroke="#186078" stroke-width="2"/>
+<polygon points="426.352,618.329 439.279,629.01 423.712,634.889" fill="#186078"/>
+<circle cx="446.56" cy="671.84" r="11" fill="#186078" stroke="#fff" stroke-width="1.2"/>
+<text x="446.56" y="675.84" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">C1</text>
+<line x1="550.56" y1="411.84" x2="597.067" y2="378.539" stroke="#7b4962" stroke-width="2"/>
+<polygon points="597.067,378.539 590.072,393.78 580.385,380.251" fill="#7b4962"/>
+<circle cx="550.56" cy="411.84" r="11" fill="#7b4962" stroke="#fff" stroke-width="1.2"/>
+<text x="550.56" y="415.84" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">C2</text>
+<line x1="120" y1="831.4" x2="224" y2="831.4" stroke="#334139" stroke-width="3"/>
+<line x1="120" y1="826.4" x2="120" y2="836.4" stroke="#334139" stroke-width="2"/>
+<line x1="224" y1="826.4" x2="224" y2="836.4" stroke="#334139" stroke-width="2"/>
+<text x="234" y="835.4" font-size="12" >1 m</text>
+<text x="303" y="835.4" font-size="12" fill="#53615a">C1–C2  机位与镜头朝向  ·  门扇弧线为开启方向  ·  蓝色为窗</text>
+<text x="120" y="861.4" font-size="12" fill="#53615a">角色住房设定图。面积为本图外轮廓估算，尺寸用于保持素材一致。</text>
+</g></svg>
